@@ -1,16 +1,10 @@
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# 1. По двум заданным числам проверить является ли одно квадратом второго.
 
+a = int(input('Введите а: '))
+b = int(input('Введите b: '))
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('Илюха')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if a == b ** 2:
+    print(f'число {a} является квадратом числа {b}')
+else:
+    print(f'число {a} НЕ является квадратом числа {b}')
